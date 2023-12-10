@@ -207,10 +207,10 @@
                         <input type="text" class="form-control form-control-sm" placeholder="Telephone" name="telephone">
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label>Paypal ID</label>
                         <input type="text" class="form-control form-control-sm" placeholder="Paypal ID" name="paypal_id">
-                    </div>
+                    </div> -->
 
                     <div class="form-group">
                         <label>Biography</label>
