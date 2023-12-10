@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 AKU ADALAH PENGUASA LANGIT DAN BUMI
 
 
@@ -97,3 +98,5 @@ For contribution and customisation supports, kindly contact us through the Email
 
 ## License
 ULEARN is open-source software licensed under the [MIT License](LICENSE).
+=======
+>>>>>>> fe421a4c705e8dd764329383e6ed736c82b468d7
