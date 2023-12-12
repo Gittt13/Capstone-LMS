@@ -2,19 +2,19 @@
   <div>
     <div>
       <ul class="site-menu" data-plugin="menu">
-        <li class="site-menu-item {{ request()->is('instructor-dashboard') ? 'active' : '' }}">
+        <li class="site-menu-item {{ request()->is('-dashboard') ? 'active' : '' }}">
             <a href="{{ route('instructor.dashboard') }}">
                 <i class="site-menu-icon wb-dashboard" aria-hidden="true"></i>
                 <span class="site-menu-title">Dashboard</span>
             </a>
         </li>
-        <li class="site-menu-item {{ request()->is('instructor-profile') ? 'active' : '' }}">
+        <li class="site-menu-item {{ request()->is('student-profile') ? 'active' : '' }}">
             <a href="{{ route('instructor.profile.get') }}">
                 <i class="site-menu-icon fas fa-user" aria-hidden="true"></i>
                 <span class="site-menu-title">Profile</span>
             </a>
         </li>
-        <li class="site-menu-item {{ request()->is('instructor-course-*') ? 'active' : '' }}">
+        <li class="site-menu-item {{ request()->is('student-course-*') ? 'active' : '' }}">
             <a href="{{ route('instructor.course.list') }}">
                 <i class="site-menu-icon fas fa-chalkboard" aria-hidden="true"></i>
                 <span class="site-menu-title">Courses</span>

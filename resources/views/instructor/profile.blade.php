@@ -121,14 +121,7 @@ figure figcaption {
                 @endif
         </div>
 
-        <div class="form-group col-md-4">
-            <label class="form-control-label">Paypal ID <span class="required">*</span></label>
-            <input type="text" class="form-control" name="paypal_id" 
-                placeholder="Paypal ID" value="{{ $instructor->paypal_id }}" />
-                @if ($errors->has('paypal_id'))
-                    <label class="error" for="paypal_id">{{ $errors->first('paypal_id') }}</label>
-                @endif
-        </div>
+        
 
         <div class="form-group col-md-6">
             <label class="form-control-label">Facebook Link </label>
@@ -366,10 +359,6 @@ figure figcaption {
                     telephone: {
                         required: true
                     },
-                    paypal_id:{
-                        required: true,
-                        email:true
-                    },
                     biography: {
                         required: true
                     },
@@ -387,10 +376,6 @@ figure figcaption {
                     },
                     telephone: {
                         required: 'The telephone field is required.'
-                    },
-                    paypal_id: {
-                        required: 'The paypal id field is required.',
-                        email: 'The paypal id must be a valid email address.'
                     },
                     biography: {
                         required: 'The biography field is required.'

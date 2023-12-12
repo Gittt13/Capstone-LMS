@@ -29,15 +29,15 @@
           </div>
         </div>
         
-        <div class="panel-body">
+        <div class="panel-body" style="text-align:center;">
           <table class="table table-hover table-striped w-full">
             <thead>
               <tr>
-                <th>Sl.no</th>
+                <th>No</th>
                 <th>Title</th>
                 <th>Slug</th>
                 <th>Category</th>
-                <th>Price</th>
+                
                 <th>Status</th>
                 <th>Actions</th>
               </tr>
@@ -49,7 +49,7 @@
                 <td>{{ $course->course_title }}</td>
                 <td>{{ $course->course_slug }}</td>
                 <td>{{ $course->category_name }}</td>
-                <td>{{ $course->price ? $course->price : 'Free' }}</td>
+                
                 <td>
                   @if($course->is_active)
                   <span class="badge badge-success">Active</span>

@@ -83,9 +83,9 @@
                         @endforeach
                     </ul>
 
-                    <h6 class="mt-3 underline-heading">Level</h6>
+                    <!-- <h6 class="mt-3 underline-heading">Level</h6> -->
                     
-                    <ul class="ul-no-padding">
+                    <!-- <ul class="ul-no-padding">
                         @foreach ($instruction_levels as $instruction_level)
                         <li> 
                             <div class="custom-control custom-checkbox">
@@ -98,9 +98,9 @@
                             </div>
                         </li>
                         @endforeach
-                    </ul>
+                    </ul> -->
 
-                    <h6 class="mt-3 underline-heading">Price</h6>
+                    <!-- <h6 class="mt-3 underline-heading">Price</h6>
                     <?php $levels = array(
                                             '0-0' => 'Free',
                                             '1-50' => 'Less than USD 50',
@@ -125,13 +125,13 @@
                             </div>
                         </li>
                         <?php }?>
-                    </ul>
+                    </ul> -->
                 </form>
                 </div>
                 <!-- filter end -->
                 <!-- course block start -->
                 <div class="col-xl-10 col-lg-10 col-md-9">
-                    <div class="row px-2">
+                    <!-- <div class="row px-2">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-8">
                             <span >Showing {{ $courses->currentPage() }} of {{ $courses->lastPage() }} page(s)</span>
                         </div>
@@ -142,7 +142,7 @@
                                 <option<?php echo(!empty($_GET['sort_price']) && $_GET['sort_price']=='desc')?' selected="selected"':'';?>  value="sort_price=desc">Price (High to Low)</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
                     
                     <!-- course start -->
                     <div class="row">
@@ -163,10 +163,10 @@
                                 </main>
                                 <footer>
                                     <div class="c-row">
-                                        <div class="col-md-6 col-sm-6 col-6">
+                                        <!-- <div class="col-md-6 col-sm-6 col-6">
                                             @php $course_price = $course->price ? config('config.default_currency').$course->price : 'Free'; @endphp
                                             <h5 class="course-price">{{  $course_price }}&nbsp;<s>{{ $course->strike_out_price ? $course->strike_out_price : '' }}</s></h5>
-                                        </div>
+                                        </div> -->
                                         <div class="col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-5 offset-1">
                                             <star class="course-rating">
                                             <?php for ($r=1;$r<=5;$r++) { ?>

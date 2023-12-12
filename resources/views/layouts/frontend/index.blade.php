@@ -66,6 +66,22 @@
         .button2:hover {
             box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
         }
+
+        .become {
+            background-color: #164863;
+            /* border: none; */
+            color: #DDF2FD;
+            padding: 5px 11px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            /* font-size: 16px; */
+            /* margin: 4px 2px; */
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            border-radius: 8px;
+        }
     </style>
 </head>
 
@@ -97,10 +113,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-5 col-md-3 col-lg-2 col-xl-2 d-none d-sm-block mt-3">
+            <div class="col-sm-2 col-md-3 col-lg-2 col-xl-2 d-flex d-sm-block mt-3">
                 @if(Auth::check() && !Auth::user()->hasRole('instructor') && !Auth::user()->hasRole('admin'))
-                <span class="become-instructor" href="{{ route('login') }}" data-toggle="modal"
-                    data-target="#myModal">Become Instructor</span>
+                <button class=" become button2">
+                    <span class="become-instructor" href="{{ route('login') }}" data-toggle="modal"
+                        data-target="#myModal">Become Instructor
+                    </span>
+                </button>
                 @endif
             </div>
 
@@ -127,6 +146,8 @@
                             <i class="fa fa-sign-out-alt"></i> Admin
                         </a>
                         @endif
+
+ 
 
                         <a class="dropdown-item" href="{{ route('my.courses') }}">
                             <i class="fa fa-sign-out-alt"></i> My Courses
@@ -262,12 +283,6 @@
                                 <label>Telephone</label>
                                 <input type="text" class="form-control form-control-sm" placeholder="Telephone"
                                     name="telephone">
-                            </div>
-
-                            <div class="form-group">
-                                <label>Paypal ID</label>
-                                <input type="text" class="form-control form-control-sm" placeholder="Paypal ID"
-                                    name="paypal_id">
                             </div>
 
                             <div class="form-group">

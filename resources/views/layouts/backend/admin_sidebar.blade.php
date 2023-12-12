@@ -27,14 +27,14 @@
                 <span class="site-menu-title">Withdraw Requests</span>
             </a>
         </li> -->
-        <li class="site-menu-item {{ request()->is('admin/blog*') ? 'active' : '' }}">
+        <!-- <li class="site-menu-item {{ request()->is('admin/blog*') ? 'active' : '' }}">
             <a href="{{ route('admin.blogs') }}">
                 <i class="site-menu-icon fas fa-blog" aria-hidden="true"></i>
                 <span class="site-menu-title">Blogs</span>
             </a>
-        </li>
+        </li> -->
 
-        <li class="site-menu-item has-sub {{ request()->is('admin/config/page-*') ? 'active open' : '' }}">
+        <!-- <li class="site-menu-item has-sub {{ request()->is('admin/config/page-*') ? 'active open' : '' }}">
             <a href="javascript:void(0)">
                 <i class="site-menu-icon wb-file" aria-hidden="true"></i>
                 <span class="site-menu-title">Pages</span>
@@ -76,13 +76,13 @@
                     <span class="site-menu-title">Payment</span>
                   </a>
                 </li>
-                <!-- <li class="site-menu-item {{ request()->is('admin/config/setting-email') ? 'active' : '' }}">
+                <li class="site-menu-item {{ request()->is('admin/config/setting-email') ? 'active' : '' }}">
                   <a href="{{ route('admin.settingEmail') }}">
                     <span class="site-menu-title">Email</span>
                   </a>
-                </li> -->
+                </li>
             </ul>
-        </li>
+        </li> -->
         
       </ul>
 

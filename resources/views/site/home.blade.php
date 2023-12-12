@@ -12,7 +12,7 @@
           <h1>Make Ur Dream Come True </h1>
           <h2>"Ambillah risiko yang lebih besar dari apa yang dipikirkan orang lain aman. Berilah perhatian lebih dari apa yang orang lain pikir bijak. Bermimpilah lebih dari apa yang orang lain pikir masuk akal” - Claude T. Bissell</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="" class="btn-get-started scrollto">Get Started</a>
+            <a href="{{route ('my.courses')}}" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img ml-6" data-aos="zoom-in" data-aos-delay="200">

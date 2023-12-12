@@ -69,7 +69,7 @@
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 float-md-right col-sm-6 float-sm-right col-6">
                             <div class="cv-category-detail cv-enroll float-lg-right float-md-right float-sm-right">
-                                <a href="javascript::void(0);" class="btn btn-ulearn-cview mt-1" data-toggle="modal" data-target="#rateModal">RATE COURSE</a>
+                                <a href="javascript::void(0);" class="btn mt-1 button-lgn button2" data-toggle="modal" data-target="#rateModal">RATE COURSE</a>
                             </div>
                         </div>
                     </div>
@@ -176,8 +176,8 @@
                     </header>
 
                     <div class="cf-pricing">
-                        <span>PRICING:</span>
-                        <button class="cf-pricing-btn btn">{{ $course->price == '' || $course_price == 0.00 ? 'FREE' : 'PAID' }}</button>
+                        <!-- <span>PRICING:</span>
+                        <button class="cf-pricing-btn btn">{{ $course->price == '' || $course_price == 0.00 ? 'FREE' : 'PAID' }}</button> -->
                     </div>
 
                     <ul class="list-unstyled cf-pricing-li">
@@ -255,7 +255,7 @@
         <input type="hidden" name="course_id" value="{{ $course->id }}">
         <input type="hidden" name="rating" id="rating" value="{{ $course_rating->rating }}">
         <input type="hidden" name="rating_id" value="{{ $course_rating->id }}">
-            <div class="px-4 py-2">
+            <div class="px-4 py-2 container">
                 <div class="form-group">
                     <label>Your Rating</label>
                     <div class="row">
@@ -264,7 +264,9 @@
                         </div>
                         <div class="col-5">
                             @if($course_rating->id)
-                                <a class="btn btn-sm btn-block delete-review delete-record" href="{{ route('delete.rating', $course_rating->id) }}">Delete Review</a>
+                            <button>
+                                <a class="btn btn-sm btn-block delete-review delete-record button2" href="{{ route('delete.rating', $course_rating->id) }}">Delete Review</a>
+                            </button>
                             @endif
                         </div>
                     </div>
@@ -276,7 +278,7 @@
                 </div>
 
                 <div class="form-group mt-4">
-                    <button type="submit" class="btn btn-lg btn-block login-page-button">{{ $course_rating->id ? 'Update' : 'Add' }} Review</button>
+                    <button type="submit" class="btn btn-lg btn-block login-page-button button-lgn button2">{{ $course_rating->id ? 'Update' : 'Add' }} Review</button>
                 </div>
 
             </div>

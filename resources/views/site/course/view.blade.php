@@ -210,7 +210,7 @@
                     </div>
 
                     <ul class="list-unstyled cf-pricing-li">
-                        <li><i class="far fa-user"></i>199 Students</li>
+                        <li><i class="far fa-user"></i>40 Students</li>
                         <li><i class="far fa-clock"></i>Duration: {{ $course->duration ? $course->duration : '-' }}</li>
                         <li><i class="fas fa-bullhorn"></i>Lectures: {{ $lectures_count }}</li>
                         <li><i class="far fa-play-circle"></i>Videos: {{ $videos_count }}</li>
