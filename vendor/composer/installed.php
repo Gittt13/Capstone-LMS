@@ -3,7 +3,7 @@
         'name' => 'ulearnpro/ulearn',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a2ebe71f7402e0c3424cceea3d73d1f81042138f',
+        'reference' => 'cdc78c1c2787629d6efe852f374be0d36b159e0f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -700,15 +700,15 @@
         'php-http/async-client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'php-http/client-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '*',
+                0 => '*',
+                1 => '1.0',
             ),
         ),
         'php-http/discovery' => array(
@@ -1379,7 +1379,7 @@
         'ulearnpro/ulearn' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a2ebe71f7402e0c3424cceea3d73d1f81042138f',
+            'reference' => 'cdc78c1c2787629d6efe852f374be0d36b159e0f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
