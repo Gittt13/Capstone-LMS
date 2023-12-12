@@ -9,10 +9,10 @@
   <meta name="author" content="">
   <meta name="_token" content="{!! csrf_token() !!}"/>
 
-  <title>ULEARN</title>
+  <title>UNI-LEARN</title>
 
   <link rel="apple-touch-icon" href="{{ asset('backend/assets/images/apple-touch-icon.png') }}">
-  <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico ') }}">
+  <link rel="shortcut icon" href="{{ asset('backend/assets/images/logo-hitam.png ') }}">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ asset('backend/css/bootstrap.min599c.css?v4.0.2') }}">
@@ -61,8 +61,8 @@
         <i class="icon wb-more-horizontal" aria-hidden="true"></i>
       </button>
       <div class="navbar-brand navbar-brand-center">
-        <img class="navbar-brand-logo" src="{{ asset('backend/assets/images/b_logo.png') }}" title="ULEARN">
-        <span class="navbar-brand-text hidden-xs-down"> ULEARN</span>
+        <img class="navbar-brand-logo" src="{{ asset('backend/assets/images/logo-hitam.png') }}" title="UNI-LEARN">
+        <span class="navbar-brand-text hidden-xs-down"> UNI - LEARN</span>
       </div>
       <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-search"
         data-toggle="collapse">
@@ -132,7 +132,7 @@
 
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="site-footer-legal">© {{ date('Y') }} <a href="javascript:void(0)">ULEARN</a></div>
+    <div class="site-footer-legal">© {{ date('Y') }} <a href="javascript:void(0)" style="text-decoration:none;">UNI - LEARN</a></div>
   </footer>
   <!-- Core  -->
   <script src="{{ asset('backend/vendor/babel-external-helpers/babel-external-helpers599c.js?v4.0.2') }}"></script>

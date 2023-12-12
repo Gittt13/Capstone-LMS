@@ -77,7 +77,7 @@ Route::group(['middleware' => 'auth'], function () {
     });
 
     //Functions accessed by both student and instructor
-    // Route::group(['middleware' => 'role:student,instructor'], function () {
+    // Route::group(['middleware' => 'role:instructor'], function () {
     Route::group(['middleware' => 'role:instructor'], function () {
         Route::get('instructor-dashboard', 'InstructorController@dashboard')->name('instructor.dashboard');
 

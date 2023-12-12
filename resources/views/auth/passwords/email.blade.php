@@ -14,7 +14,7 @@
 
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 vertical-align d-none d-lg-block">
-                    <img class="img-fluid" src="{{ asset('frontend/img/fimg.png') }}" width="500px" height="500px">
+                    <img class="img-fluid" src="{{ asset('frontend/img/logo-hitam.png') }}" width="500px" height="500px">
                 </div>
                 <div class="col-xl-6 offset-xl-0 col-lg-6 offset-lg-0 col-md-8 offset-md-2">
                     <div class="rightRegisterForm">
@@ -43,43 +43,7 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-lg btn-block login-page-button">Send Password Reset Link</button>
-                            </div>
-
-                            <div class="hr-container">
-                               <hr class="hr-inline" align="left">
-                               <span class="hr-text"> or </span>
-                               <hr class="hr-inline" align="right">
-                            </div>
-
-                            <div class="form-group">
-                                <a href="{{ url('login/facebook') }}" class="btn btn-lg btn-block social-btn facebook-btn">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fab fa-facebook-f float-right"></i>
-                                        </div>
-                                        <div class="col-9">
-                                            <span>
-                                            Login with Facebook
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="form-group">
-                                <button type="button" class="btn btn-lg btn-block social-btn google-btn">
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <i class="fab fa-google-plus-g float-right"></i>
-                                        </div>
-                                        <div class="col-9">
-                                            <span>
-                                            Login with Google plus
-                                            </span>
-                                        </div>
-                                    </div>
-                                </button>
+                                <button type="submit" class="btn btn-lg btn-block login-page-button button-lgn button2">Send Password Reset Link</button>
                             </div>
 
                         </div>

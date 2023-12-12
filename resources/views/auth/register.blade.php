@@ -71,7 +71,7 @@
                             </div>
 
                             <div class="form-group mt-4">
-                                <button type="submit" class="btn btn-lg btn-block login-page-button">Register</button>
+                                <button type="submit" class="btn btn-lg btn-block login-page-button button-lgn button2">Register</button>
                             </div>
 
                         </div>
